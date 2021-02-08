@@ -1,1 +1,37 @@
-*{outline: 1px static red;}
+body{display: inline-block;}
+
+header{
+    padding: 20px;
+    margin: 20px;
+    width: 650px;
+    background-color: lavenderblush;
+    text-align: center;
+}
+
+aside{
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    background-color: lightgray;
+}
+
+main{
+    padding: 20px;
+    margin: 20px;
+    width: 650px;
+    background-color: peachpuff;
+}
+
+img{
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+article{
+    padding: 20px;
+    margin: 20px;
+}
+
+
+
