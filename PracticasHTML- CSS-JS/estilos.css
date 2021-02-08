@@ -1,12 +1,10 @@
-body{display: flex;}
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
-header{
-    padding: 20px 20px;
-    margin: 20px 20px;
-    width: 650px;
-    height: 200px;
-    background-color: lavenderblush;
-    text-align: center;
+body{display: flex;
+    float: left;
 }
 
 aside{
@@ -16,7 +14,16 @@ aside{
     background-color: lightgray;
 }
 
-main{
+.Presentación{
+    padding: 30px 30px;
+    margin: 20px 20px;
+    width: 650px;
+    height: 100px;
+    background-color: lavenderblush;
+    text-align: center;
+}
+
+.Información{
     padding: 20px;
     margin: 20px;
     width: 650px;
