@@ -1,32 +1,37 @@
 *{
     margin: 0px;
     padding: 0px;
+    outline: 1px red auto;
 }
 
-body{display: flex;
-    float: left;
+body{
+    margin: 30px auto;
+    width: 80%;
+    display: flex;
+    font-family: Century Gothic, 'Times New Roman', Times, serif;
+
 }
 
-aside{
+.Extras{
     padding: 20px;
     margin: 20px;
-    width: 300px;
+    width: 30%;
     background-color: lightgray;
 }
 
 .Presentación{
-    padding: 30px 30px;
-    margin: 20px 20px;
-    width: 650px;
+    padding: 30px;
+    width: 85%;
+    margin: 30px;
     height: 100px;
     background-color: lavenderblush;
     text-align: center;
 }
 
 .Información{
-    padding: 20px;
-    margin: 20px;
-    width: 650px;
+    padding: 30px;
+    margin: 30px;
+    width: 85%;
     background-color: peachpuff;
 }
 
