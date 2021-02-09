@@ -1,11 +1,21 @@
 *{
     margin: 0px;
     padding: 0px;
-    outline: 1px auto red;
 }
 
-h1, h2{
+h1, h2, h3{
     margin: 10px;
+    font: bold;
+}
+
+h3{
+    font-family: cursive;
+    font-size: 22px;
+
+}
+
+aside h3 {
+    text-align: center;
 }
 
 body{
