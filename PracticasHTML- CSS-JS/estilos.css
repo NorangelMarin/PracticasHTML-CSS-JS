@@ -1,22 +1,36 @@
 *{
     margin: 0px;
     padding: 0px;
-    outline: 1px red auto;
+    outline: 1px auto red;
+}
+
+h1{
+    margin: 10px;
+}
+
+h2{
+    margin: 10px;
 }
 
 body{
-    margin: 30px auto;
+    margin: 20px auto;
     width: 80%;
     display: flex;
     font-family: Century Gothic, 'Times New Roman', Times, serif;
-
+    outline: 2px lightgray auto;
+    min-width: 300px;
+    max-width: 1000px;
 }
 
+
 .Extras{
-    padding: 20px;
-    margin: 20px;
+    padding: 30px;
+    margin: 30px;
     width: 30%;
     background-color: lightgray;
+    max-width: 500px;
+    min-width: 200px;
+    outline: 2px lightgray auto;
 }
 
 .Presentación{
@@ -25,20 +39,39 @@ body{
     margin: 30px;
     height: 100px;
     background-color: lavenderblush;
+    max-width: 500px;
+    min-width: 200px;
     text-align: center;
+    outline: 2px lavenderblush auto;
+
 }
 
-.Información{
+.Información > article{
     padding: 30px;
     margin: 30px;
     width: 85%;
     background-color: peachpuff;
+    max-width: 500px;
+    min-width: 200px;
+    outline: 2px peachpuff auto;
+
 }
 
-img{
-    padding: 20px;
-    width: 250px;
-    height: 250px;
+.ImagenPersonal img{
+    padding: 14.5px;
+    width: 90%;
+    height: 90%;
+    align-self: center;
+}
+
+.Referencias img{
+    margin: 10px;
+    width: 28%;
+    height: 40%;
+}
+
+.Referencias h3{
+    text-align: center;
 }
 
 article{
@@ -46,5 +79,47 @@ article{
     margin: 20px;
 }
 
+article .Referencias {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+dl{
+    margin-left: 20px;
+    margin-top: 20px;
+}
 
+dt{
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+dd{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    margin: 20px;
+    padding: 10px;
+}
+
+ul {
+    margin: 20px;
+    list-style: none;
+}
+
+.Contactos a{
+    text-decoration: none; 
+    color: black;
+    margin: 10px;
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+
+.InfoContacto {
+    outline: 1px auto #fff;
+}
