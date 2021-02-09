@@ -4,11 +4,7 @@
     outline: 1px auto red;
 }
 
-h1{
-    margin: 10px;
-}
-
-h2{
+h1, h2{
     margin: 10px;
 }
 
